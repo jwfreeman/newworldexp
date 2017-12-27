@@ -1,0 +1,179 @@
+
+
+/* Header  */ 
+
+.headerSub {
+    font-family: 'Baloo Chettan', cursive;
+    letter-spacing: 3px;
+
+}
+
+.headerMain {
+    color: rgba(226, 222, 204);
+    font-size: 43px;
+    text-transform: uppercase;
+}
+
+.header-content-inner {
+    background-color: rgba(193, 191, 191, .3);
+    border-radius: 25px;
+    padding-top: 2%;
+    
+}
+
+.headerButton {
+    margin-bottom: 2%;
+}
+
+.navColor {
+    color: white;
+}
+
+.headerText {
+    color: white;
+    font-size: 28px;
+    
+}
+ .spacerBox{
+    height: 25px;
+ }
+.headerDownArrow {
+    float: bottom;
+    color: white;
+    height: 150%;
+    
+}
+
+.navButton{
+    height: 50%;
+}
+.navLogo {
+    width: 40px;
+    padding-bottom: 2px;
+}
+
+.navWords {
+    width: 125px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+/* Animation header bouncing 'more info'  */
+.animatedHeader {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+  } 
+  
+  @-webkit-keyframes bounce {
+    0%, 20%, 40%, 60%, 80%, 100% {-webkit-transform: translateY(0);}
+    50% {-webkit-transform: translateY(-10px);}
+  } 
+  
+  @keyframes bounce { 
+    0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-10px);}
+  } 
+  
+  .bounceHeader { 
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+  }
+
+
+
+  /* call to action section */
+
+  .actionText {
+    color: white;
+  }
+
+  input {
+      width: 40%;
+  }
+
+  .searchBox {
+      margin-bottom: 5%;
+  }
+
+  .formShape {
+      border-radius: 15px;
+  }
+  .navButton {
+     color: rgb(161, 14, 14) !important;
+  }
+/* Css Destinations Page */
+
+  .tripImages {
+      width: 400px;
+      padding-top: 10%; 
+  }
+
+  .advImage {
+      width: 25%;
+      margin: 0 auto;
+  }
+
+.tripTitles {
+    text-align: center;
+    margin-bottom: 5%;
+    border-bottom-width: 3em;
+}
+
+.tripTextContainers {
+    padding-top: 2%;
+}
+.center-text {
+    text-align: center;
+}
+ 
+.tripButtons {
+    padding-top: 2%;
+}
+
+.tripImage {
+    text-align: center;
+}
+
+/* Media Rule Switch classes */ 
+
+.tripListItems h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Media Rule Controllers */
+@media only screen and (max-width: 991px) {
+    .tripButtonBottom {
+        padding-top: 5px;
+    }
+    
+
+}
+
+.mouseScroll {
+    width: 7% !important;
+}
+
+.myslides {
+    display:none;
+}
+
+.demo {
+    cursor: pointer;
+}
+
+
+.topIcons {
+    margin: 5%;
+}
+
+.advBody2 {
+    padding-bottom: 8%;
+}
