@@ -160,12 +160,13 @@
 @media screen and (max-width:425px) {
     .headerMain {
         font-size: 18px;
+        padding-top: 25px;
     }
     .headerText {
         font-size: 15px;
     }
-    .arrowController {
-        display: none;
+    /*.arrowController {
+        display: none;*/
     }
     .icons {
         width: 10px;
