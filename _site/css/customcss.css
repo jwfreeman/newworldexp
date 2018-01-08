@@ -14,6 +14,7 @@
     text-transform: uppercase;
 }
 
+
 .header-content-inner {
     background-color: rgba(193, 191, 191, .3);
     border-radius: 25px;
@@ -153,7 +154,31 @@
     .tripButtonBottom {
         padding-top: 5px;
     }
-    
+}
+
+/* iphone media rules */
+
+@media screen and (max-width:425px) {
+    .headerMain {
+        font-size: 15px;
+    }
+    .headerText {
+        font-size: 13px;
+    }
+    .arrowController {
+        display: none;
+    }
+    .icons {
+        width: 10px;
+        
+    }
+    .iconsBox {
+        width: 5px;
+    }
+    .topIcons {
+        display: none;
+    }
+
 
 }
 
@@ -172,8 +197,20 @@
 
 .topIcons {
     margin: 5%;
+    display: none;
+
+}
+.icons {
+    width: 30px;
+}
+.icons2 {
+    width: 40px;
 }
 
 .advBody2 {
     padding-bottom: 8%;
+}
+
+.mainBody {
+    margin-top: 25px;
 }

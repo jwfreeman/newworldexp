@@ -184,12 +184,6 @@
         background-size: cover;
       background-repeat: no-repeat;
   }
-
- 
-
-  
-  
-  
   /********************************/
   /*          Media Queries       */
   /********************************/
@@ -199,3 +193,14 @@
   @media screen and (max-width: 640px){
         
   }
+
+  .galleryLowText {
+    font-size: 15px !important;
+
+  }
+
+  .galleryImgCircles {
+    max-width: 250px;
+  }
+
+  
