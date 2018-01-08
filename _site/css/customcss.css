@@ -55,7 +55,6 @@
 
 .navWords {
     width: 125px;
-    padding-left: 15px;
     padding-top: 10px;
 }
 
@@ -164,6 +163,7 @@
     }
     .headerText {
         font-size: 13px;
+        margin-top: -10px;
     }
     .arrowController {
         display: none;
@@ -178,7 +178,23 @@
     .topIcons {
         display: none;
     }
+    .navWords {
+        margin-left:20px;
+        padding-top: 5px;
+    }
+    .navbar-header button {
+        margin-top: 20px;
+    }
 
+}
+@media screen and (max-width:740px) {
+    .navWords {
+        margin-left:20px;
+        padding-top: 5px;
+    }
+    .navbar-header button {
+        margin-top: 20px;
+    }
 
 }
 
