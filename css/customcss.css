@@ -159,11 +159,10 @@
 
 @media screen and (max-width:425px) {
     .headerMain {
-        font-size: 15px;
+        font-size: 18px;
     }
     .headerText {
-        font-size: 13px;
-        margin-top: -10px;
+        font-size: 15px;
     }
     .arrowController {
         display: none;
@@ -184,6 +183,10 @@
     }
     .navbar-header button {
         margin-top: 20px;
+    }
+    .getStartedButton {
+        padding-top: 35px;
+        padding-bottom: 10px;
     }
 
 }
